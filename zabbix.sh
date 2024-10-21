@@ -4,8 +4,8 @@
 sudo apt-get update
 
 # Baixa e instala a chave GPG do repositório Zabbix
-wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu20.04_all.deb
-sudo dpkg -i zabbix-release_6.4-1+ubuntu20.04_all.deb
+wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu24.04_all.deb
+sudo dpkg -i zabbix-release_latest+ubuntu24.04_all.deb
 
 # Atualiza novamente a lista de pacotes para incluir o repositório Zabbix
 sudo apt-get update
